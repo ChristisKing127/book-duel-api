@@ -60,11 +60,19 @@ Base URL: `http://localhost:3001/api/v1`
 
 ## What "completed" means in my game
 
-[One or two sentences: when does a player count as having completed a game? For example: "A player completed the game when they answered every question, even if some answers were wrong or timed out."]
+["When a player survives or has more health points by the time limits"]
 
 ## Tables
 
-[List your tables, one line each, in the order of your migrations.]
+[#	Table	Rows
+0	answers	8
+1	choices	6
+2	question_sets	1
+3	questions	2
+4	rounds	2
+5	session_players	4
+6	sessions	1
+7	users	6]
 
 ## Database scripts
 
